@@ -8,7 +8,7 @@
 #SBATCH --gres=gpu:rtx8000:4
 #SBATCH --output=%x.out
 
-export WANDB_API_KEY=558bbd34f482f0f2a44e3f842f96dcc9b0922c68
+export WANDB_API_KEY=<wandb-key>
 
 # directory="./log"
 # mv $directory log_old_9
