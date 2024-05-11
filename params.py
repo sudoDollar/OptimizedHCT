@@ -7,7 +7,7 @@ class Config:
         parser.add_argument('--batch-size', type=int, default=16, metavar='N',
                             help='input batch size for training (default: 16)')
         parser.add_argument('--num-workers', type=int, default=2,
-                            help='Number of I/O processes (default: 0)')
+                            help='Number of I/O processes (default: 2)')
         parser.add_argument('--epochs', type=int, default=80, metavar='N',
                             help='Number of epochs to train (default: 80)')
         parser.add_argument('--lr', type=float, default=2e-5, metavar='LR',

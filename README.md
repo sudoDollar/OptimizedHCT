@@ -2,7 +2,12 @@
 ECE-GY 9143 - High Performance Machine Learning Project (NYU)
 
 ## Description
-The goal of this project is to optimize the [1]High-resolu1on Convolu1onal Transformer (HCT) model by leveraging High-Performance Computing (HPC) techniques, including distributed data parallelism and other advanced op1miza1on strategies. By enhancing the efficiency and scalability of HCT, the project aims to enable faster and more effective processing of high-resolu1on images in applica1ons such as medical imaging and satellite image analysis, ultimately advancing the state-of-the-art in image-based tasks through optimized model architectures and computational methodologies.
+The goal of this project is to optimize the [1]High-resolu1on Convolu1onal Transformer (HCT) model by
+leveraging High-Performance Computing (HPC) techniques, including distributed data parallelism and
+other advanced op1miza1on strategies. By enhancing the efficiency and scalability of HCT, the project
+aims to enable faster and more effective processing of high-resolu1on images in applica1ons such as
+medical imaging and satellite image analysis, ultimately advancing the state-of-the-art in image-based
+tasks through optimized model architectures and computational methodologies.
 
 ## Project Milestones
 ### Milestone
@@ -48,6 +53,14 @@ The goal of this project is to optimize the [1]High-resolu1on Convolu1onal Trans
 
 ## Steps to Run
 
+### Required Softwares/Libraries
+1. Pytorch
+2. Wandb
+3. PyTorch LibTorch (For C++) (with CUDA Support)
+4. OpenCV C++
+5. Torch_tb_profiler
+6. einops (Python Library for Array Manuplation)
+
 ### Training
 #### Using HPC
 ```
@@ -68,7 +81,7 @@ options:
   -h, --help            show this help message and exit
   --batch-size N        input batch size for training (default: 16)
   --num-workers NUM_WORKERS
-                        Number of I/O processes (default: 0)
+                        Number of I/O processes (default: 2)
   --epochs N            Number of epochs to train (default: 80)
   --lr LR               learning rate (default: 2e-5)
   --device DEVICE       Device to be used for training(cpu/cuda)
@@ -106,6 +119,7 @@ python inf.py
 ```
 cd cpp
 mkdir build
+cd build
 cmake ..
 cmake --build .
 ./native_hct <model_path> <image_path> <device>
