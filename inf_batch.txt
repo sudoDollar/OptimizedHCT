@@ -1,0 +1,19 @@
+Eager Model Inference (CPU)
+['Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Street', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain']
+Inference Time per Batch: 3.696291569620371 secs
+
+Model Successfully compiled/traced to saved_model/torchscript_hct.pth
+Further predictions will be made using traced module
+Graph Model Inference (CPU)
+['Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Street', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain']
+Inference Time per Batch: 3.6160579593852162 secs
+
+Eager Model Inference (GPU)
+['Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Street', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain']
+Inference Time per Batch: 0.8330167206004262 secs
+
+Model Successfully compiled/traced to saved_model/torchscript_hct.pth
+Further predictions will be made using traced module
+Graph Model Inference (GPU)
+['Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Street', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain']
+Inference Time per Batch: 1.9260910218581557 secs

@@ -1,0 +1,20 @@
+Eager Model Inference (CPU)
+Mountain
+Inference Time per Image: 0.19235421251505613 secs
+
+Model Successfully compiled/traced to saved_model/torchscript_hct.pth
+Further predictions will be made using traced module
+Graph Model Inference (CPU)
+Mountain
+Inference Time per Image: 0.24820535443723202 secs
+
+Eager Model Inference (GPU)
+Mountain
+Inference Time per Image: 0.05733369570225477 secs
+
+Model Successfully compiled/traced to saved_model/torchscript_hct.pth
+Further predictions will be made using traced module
+Graph Model Inference (GPU)
+Mountain
+Inference Time per Image: 1.096297555603087 secs
+

@@ -1,0 +1,325 @@
+Starting Training: 
+Optimizer: Adam, num_workers: 2
+Number of Devices: 4, Batch Size per GPU: 16
+Number of Batches: 25
+
+Epoch: 1/80 Training loss: 1.298501272201538, Training acc: 0.3875
+Validation Loss: 1.2456395149230957, Validation Accuracy: 0.4
+Data Loading Time: 197.04163630492985 secs, Training time: 168.94149602251127 secs, Running time: 368.34400452906266 secs
+
+Epoch: 2/80 Training loss: 1.2562123584747313, Training acc: 0.455
+Validation Loss: 1.1794919490814209, Validation Accuracy: 0.43846153846153846
+Data Loading Time: 170.84571563219652 secs, Training time: 186.05072415061295 secs, Running time: 358.0508973952383 secs
+
+Epoch: 3/80 Training loss: 1.1500507736206054, Training acc: 0.5325
+Validation Loss: 1.2001209139823914, Validation Accuracy: 0.4807692307692308
+Data Loading Time: 140.04706823593006 secs, Training time: 216.13445185264573 secs, Running time: 357.46378026902676 secs
+
+Epoch: 4/80 Training loss: 1.0955022835731507, Training acc: 0.5425
+Validation Loss: 1.146501326560974, Validation Accuracy: 0.45
+Data Loading Time: 300.38851289171726 secs, Training time: 54.08704267907888 secs, Running time: 355.75360558275133 secs
+
+Epoch: 5/80 Training loss: 1.0006881618499757, Training acc: 0.5725
+Validation Loss: 1.4868602991104125, Validation Accuracy: 0.39615384615384613
+Data Loading Time: 233.72917902469635 secs, Training time: 112.13738339859992 secs, Running time: 354.0255313361995 secs
+
+Epoch: 6/80 Training loss: 0.9434799313545227, Training acc: 0.575
+Validation Loss: 1.1246409177780152, Validation Accuracy: 0.4653846153846154
+Data Loading Time: 222.41404558485374 secs, Training time: 125.72152719646692 secs, Running time: 349.3924530991353 secs
+
+Epoch: 7/80 Training loss: 0.961297116279602, Training acc: 0.615
+Validation Loss: 1.1139176845550538, Validation Accuracy: 0.5115384615384615
+Data Loading Time: 194.53236739849672 secs, Training time: 168.00524441339076 secs, Running time: 363.75705910893157 secs
+
+Epoch: 8/80 Training loss: 0.9269864702224732, Training acc: 0.635
+Validation Loss: 1.0766907215118409, Validation Accuracy: 0.5115384615384615
+Data Loading Time: 185.6291509079747 secs, Training time: 177.77722070598975 secs, Running time: 364.71169720217586 secs
+
+Epoch: 9/80 Training loss: 0.8916674160957336, Training acc: 0.6325
+Validation Loss: 0.9731996893882752, Validation Accuracy: 0.5538461538461539
+Data Loading Time: 207.63561133714393 secs, Training time: 151.4510336034 secs, Running time: 360.4489244502038 secs
+
+Epoch: 10/80 Training loss: 0.917900207042694, Training acc: 0.63
+Validation Loss: 1.015366756916046, Validation Accuracy: 0.5346153846153846
+Data Loading Time: 201.68779913941398 secs, Training time: 159.27020142553374 secs, Running time: 362.2402081238106 secs
+
+Epoch: 11/80 Training loss: 0.9246128225326538, Training acc: 0.5775
+Validation Loss: 0.9759151220321656, Validation Accuracy: 0.5615384615384615
+Data Loading Time: 287.2568094069138 secs, Training time: 69.8456026953645 secs, Running time: 358.3295407090336 secs
+
+Epoch: 12/80 Training loss: 0.8872427153587341, Training acc: 0.6125
+Validation Loss: 1.0038968086242677, Validation Accuracy: 0.5230769230769231
+Data Loading Time: 271.2216830207035 secs, Training time: 88.36132036661729 secs, Running time: 360.92212538421154 secs
+
+Epoch: 13/80 Training loss: 0.9087101650238038, Training acc: 0.6175
+Validation Loss: 1.0794215202331543, Validation Accuracy: 0.49230769230769234
+Data Loading Time: 146.57276498526335 secs, Training time: 216.1063861446455 secs, Running time: 363.88761251885444 secs
+
+Epoch: 14/80 Training loss: 0.8353165459632873, Training acc: 0.6425
+Validation Loss: 1.4298901438713074, Validation Accuracy: 0.4230769230769231
+Data Loading Time: 287.0684666377492 secs, Training time: 72.71216430095956 secs, Running time: 361.1685839602724 secs
+
+Epoch: 15/80 Training loss: 0.8393580162525177, Training acc: 0.675
+Validation Loss: 1.1014511287212372, Validation Accuracy: 0.49615384615384617
+Data Loading Time: 291.0308534675278 secs, Training time: 70.69092065002769 secs, Running time: 363.1041595931165 secs
+
+Epoch: 16/80 Training loss: 0.779213125705719, Training acc: 0.6825
+Validation Loss: 1.071706336736679, Validation Accuracy: 0.5115384615384615
+Data Loading Time: 251.8511913223192 secs, Training time: 111.58918569050729 secs, Running time: 364.8153270292096 secs
+
+Epoch: 17/80 Training loss: 0.7199700951576233, Training acc: 0.705
+Validation Loss: 0.9364799857139587, Validation Accuracy: 0.5538461538461539
+Data Loading Time: 258.4655636823736 secs, Training time: 105.79519646801054 secs, Running time: 365.7010929370299 secs
+
+Epoch: 18/80 Training loss: 0.7993233728408814, Training acc: 0.675
+Validation Loss: 1.6546349942684173, Validation Accuracy: 0.48846153846153845
+Data Loading Time: 283.07977724820375 secs, Training time: 78.59134723525494 secs, Running time: 363.04898770013824 secs
+
+Epoch: 19/80 Training loss: 0.7325042116641999, Training acc: 0.7
+Validation Loss: 0.9778708398342133, Validation Accuracy: 0.49230769230769234
+Data Loading Time: 112.39669735310599 secs, Training time: 251.63608229486272 secs, Running time: 365.25517197465524 secs
+
+Epoch: 20/80 Training loss: 0.7306450819969177, Training acc: 0.67
+Validation Loss: 0.9488879561424255, Validation Accuracy: 0.5653846153846154
+Data Loading Time: 177.36376335471869 secs, Training time: 192.83146099979058 secs, Running time: 371.52145738713443 secs
+
+Epoch: 21/80 Training loss: 0.7440493142604828, Training acc: 0.7075
+Validation Loss: 1.0385087847709655, Validation Accuracy: 0.5115384615384615
+Data Loading Time: 135.96429325221106 secs, Training time: 230.87706265505403 secs, Running time: 368.2016160050407 secs
+
+Epoch: 22/80 Training loss: 0.7250833475589752, Training acc: 0.6825
+Validation Loss: 0.8956712484359741, Validation Accuracy: 0.5846153846153846
+Data Loading Time: 324.65859723603353 secs, Training time: 50.18003520416096 secs, Running time: 376.17129235481843 secs
+
+Epoch: 23/80 Training loss: 0.7001596283912659, Training acc: 0.715
+Validation Loss: 0.9947774767875671, Validation Accuracy: 0.5692307692307692
+Data Loading Time: 242.70920460810885 secs, Training time: 127.10616752272472 secs, Running time: 371.153767131269 secs
+
+Epoch: 24/80 Training loss: 0.6846051681041717, Training acc: 0.7225
+Validation Loss: 1.0984820485115052, Validation Accuracy: 0.5615384615384615
+Data Loading Time: 203.6286825723946 secs, Training time: 172.00000182911754 secs, Running time: 376.96144651900977 secs
+
+Epoch: 25/80 Training loss: 0.6475282967090606, Training acc: 0.755
+Validation Loss: 1.0417032778263091, Validation Accuracy: 0.5423076923076923
+Data Loading Time: 315.08503974974155 secs, Training time: 62.188329100608826 secs, Running time: 378.5104686766863 secs
+
+Epoch: 26/80 Training loss: 0.6118298029899597, Training acc: 0.73
+Validation Loss: 0.9159440755844116, Validation Accuracy: 0.6
+Data Loading Time: 308.5609199721366 secs, Training time: 74.57405253686011 secs, Running time: 384.40852685598657 secs
+
+Epoch: 27/80 Training loss: 0.5998255014419556, Training acc: 0.75
+Validation Loss: 0.9003697395324707, Validation Accuracy: 0.5692307692307692
+Data Loading Time: 313.82483728509396 secs, Training time: 64.14783299667761 secs, Running time: 379.2755743856542 secs
+
+Epoch: 28/80 Training loss: 0.5992638194561004, Training acc: 0.7675
+Validation Loss: 0.8556926131248475, Validation Accuracy: 0.5692307692307692
+Data Loading Time: 185.22902235249057 secs, Training time: 184.41354976175353 secs, Running time: 370.88023660099134 secs
+
+Epoch: 29/80 Training loss: 0.5753466701507568, Training acc: 0.755
+Validation Loss: 0.8455341935157776, Validation Accuracy: 0.5692307692307692
+Data Loading Time: 272.4172863550484 secs, Training time: 102.03903059661388 secs, Running time: 375.80580039834604 secs
+
+Epoch: 30/80 Training loss: 0.5278416419029236, Training acc: 0.795
+Validation Loss: 0.9523469150066376, Validation Accuracy: 0.5884615384615385
+Data Loading Time: 280.89930374734104 secs, Training time: 91.50584943173453 secs, Running time: 373.78513056226075 secs
+
+Epoch: 31/80 Training loss: 0.5778853929042816, Training acc: 0.7525
+Validation Loss: 1.0110890865325928, Validation Accuracy: 0.5884615384615385
+Data Loading Time: 248.17667899420485 secs, Training time: 129.47685732832178 secs, Running time: 379.0341253099032 secs
+
+Epoch: 32/80 Training loss: 0.5807398676872253, Training acc: 0.775
+Validation Loss: 0.8962005138397217, Validation Accuracy: 0.5923076923076923
+Data Loading Time: 187.26096760621294 secs, Training time: 179.62474726326764 secs, Running time: 368.1091100019403 secs
+
+Epoch: 33/80 Training loss: 0.46635728716850283, Training acc: 0.82
+Validation Loss: 0.9886578559875489, Validation Accuracy: 0.6115384615384616
+Data Loading Time: 175.61539320275187 secs, Training time: 191.50768529297784 secs, Running time: 368.38031294522807 secs
+
+Epoch: 34/80 Training loss: 0.5133113080263138, Training acc: 0.765
+Validation Loss: 1.3848985195159913, Validation Accuracy: 0.5076923076923077
+Data Loading Time: 272.68074857862666 secs, Training time: 91.12252039695159 secs, Running time: 364.99859851785004 secs
+
+Epoch: 35/80 Training loss: 0.5242626368999481, Training acc: 0.78
+Validation Loss: 0.9785912454128265, Validation Accuracy: 0.5961538461538461
+Data Loading Time: 282.81488913390785 secs, Training time: 74.68801054311916 secs, Running time: 358.85051859915257 secs
+
+Epoch: 36/80 Training loss: 0.4875513482093811, Training acc: 0.815
+Validation Loss: 1.42502418756485, Validation Accuracy: 0.5115384615384615
+Data Loading Time: 250.70960144232959 secs, Training time: 112.24927305104211 secs, Running time: 364.2755001876503 secs
+
+Epoch: 37/80 Training loss: 0.43430002689361574, Training acc: 0.8425
+Validation Loss: 1.3129401490092278, Validation Accuracy: 0.5846153846153846
+Data Loading Time: 236.8501990060322 secs, Training time: 124.57658981438726 secs, Running time: 362.7546654259786 secs
+
+Epoch: 38/80 Training loss: 0.4636949843168259, Training acc: 0.83
+Validation Loss: 1.0539388358592987, Validation Accuracy: 0.573076923076923
+Data Loading Time: 294.8911941833794 secs, Training time: 64.12116069998592 secs, Running time: 360.28800815483555 secs
+
+Epoch: 39/80 Training loss: 0.4241654646396637, Training acc: 0.85
+Validation Loss: 0.9872732132673263, Validation Accuracy: 0.5846153846153846
+Data Loading Time: 315.22127227531746 secs, Training time: 46.76931750494987 secs, Running time: 363.23482252983376 secs
+
+Epoch: 40/80 Training loss: 0.44920466661453246, Training acc: 0.8375
+Validation Loss: 1.518522959947586, Validation Accuracy: 0.55
+Data Loading Time: 228.75785264652222 secs, Training time: 135.33542578388005 secs, Running time: 365.3622676152736 secs
+
+Epoch: 41/80 Training loss: 0.3896753388643265, Training acc: 0.8725
+Validation Loss: 1.440327626466751, Validation Accuracy: 0.5692307692307692
+Data Loading Time: 311.3027679002844 secs, Training time: 50.694222311489284 secs, Running time: 363.279634305276 secs
+
+Epoch: 42/80 Training loss: 0.3983933877944946, Training acc: 0.8625
+Validation Loss: 1.048809015750885, Validation Accuracy: 0.5807692307692308
+Data Loading Time: 253.3364615435712 secs, Training time: 114.42501950776204 secs, Running time: 369.40944293886423 secs
+
+Epoch: 43/80 Training loss: 0.3741073876619339, Training acc: 0.8625
+Validation Loss: 1.125351881980896, Validation Accuracy: 0.5846153846153846
+Data Loading Time: 215.79895017202944 secs, Training time: 148.6869607232511 secs, Running time: 365.7205718108453 secs
+
+Epoch: 44/80 Training loss: 0.4095080292224884, Training acc: 0.8375
+Validation Loss: 1.0022437870502472, Validation Accuracy: 0.6038461538461538
+Data Loading Time: 250.275234058965 secs, Training time: 115.9033127729781 secs, Running time: 367.5677028191276 secs
+
+Epoch: 45/80 Training loss: 0.37988071858882905, Training acc: 0.8575
+Validation Loss: 1.3069794476032257, Validation Accuracy: 0.5692307692307692
+Data Loading Time: 286.23152136523277 secs, Training time: 68.73793845390901 secs, Running time: 356.1420506569557 secs
+
+Epoch: 46/80 Training loss: 0.3944075459241867, Training acc: 0.86
+Validation Loss: 1.421460795402527, Validation Accuracy: 0.5923076923076923
+Data Loading Time: 229.04744745930657 secs, Training time: 132.21586659550667 secs, Running time: 362.5534201231785 secs
+
+Epoch: 47/80 Training loss: 0.3900657445192337, Training acc: 0.8675
+Validation Loss: 1.6785750895738603, Validation Accuracy: 0.5884615384615385
+Data Loading Time: 304.76110284775496 secs, Training time: 48.17069843271747 secs, Running time: 354.29754343116656 secs
+
+Epoch: 48/80 Training loss: 0.3716128295660019, Training acc: 0.8625
+Validation Loss: 1.3386983394622802, Validation Accuracy: 0.6076923076923076
+Data Loading Time: 191.0273392959498 secs, Training time: 168.73471243912354 secs, Running time: 361.030144684948 secs
+
+Epoch: 49/80 Training loss: 0.3006338930130005, Training acc: 0.8975
+Validation Loss: 1.3599216222763062, Validation Accuracy: 0.5461538461538461
+Data Loading Time: 267.162861361634 secs, Training time: 91.05474094487727 secs, Running time: 359.53264971869066 secs
+
+Epoch: 50/80 Training loss: 0.31761921882629396, Training acc: 0.89
+Validation Loss: 1.3844228953123092, Validation Accuracy: 0.5846153846153846
+Data Loading Time: 150.8588065681979 secs, Training time: 217.90481205563992 secs, Running time: 370.07569786626846 secs
+
+Epoch: 51/80 Training loss: 0.31848633646965024, Training acc: 0.8875
+Validation Loss: 1.5729487895965577, Validation Accuracy: 0.5769230769230769
+Data Loading Time: 153.94955537794158 secs, Training time: 207.33679958526045 secs, Running time: 362.5845557260327 secs
+
+Epoch: 52/80 Training loss: 0.31133200854063037, Training acc: 0.8875
+Validation Loss: 1.3162235260009765, Validation Accuracy: 0.6076923076923076
+Data Loading Time: 249.57995291426778 secs, Training time: 106.65761686954647 secs, Running time: 357.5827629510313 secs
+
+Epoch: 53/80 Training loss: 0.2954071420431137, Training acc: 0.89
+Validation Loss: 1.4202623188495636, Validation Accuracy: 0.5692307692307692
+Data Loading Time: 211.338746718131 secs, Training time: 147.34184515941888 secs, Running time: 360.02533453609794 secs
+
+Epoch: 54/80 Training loss: 0.3488292980194092, Training acc: 0.88
+Validation Loss: 1.2133238315582275, Validation Accuracy: 0.6038461538461538
+Data Loading Time: 249.06540664006025 secs, Training time: 114.65277331741527 secs, Running time: 364.956301166676 secs
+
+Epoch: 55/80 Training loss: 0.295291208922863, Training acc: 0.905
+Validation Loss: 1.5310057520866394, Validation Accuracy: 0.5961538461538461
+Data Loading Time: 197.0826482581906 secs, Training time: 162.25906033767387 secs, Running time: 360.65043867425993 secs
+
+Epoch: 56/80 Training loss: 0.3111338877677918, Training acc: 0.885
+Validation Loss: 1.4274831473827363, Validation Accuracy: 0.6
+Data Loading Time: 258.07665501208976 secs, Training time: 99.93242381792516 secs, Running time: 359.31854442926124 secs
+
+Epoch: 57/80 Training loss: 0.2827895936369896, Training acc: 0.9075
+Validation Loss: 1.282595020532608, Validation Accuracy: 0.6346153846153846
+Data Loading Time: 337.06404658500105 secs, Training time: 38.34051149850711 secs, Running time: 376.59329319000244 secs
+
+Epoch: 58/80 Training loss: 0.3368029674887657, Training acc: 0.865
+Validation Loss: 1.4904826939105988, Validation Accuracy: 0.6076923076923076
+Data Loading Time: 281.10909121437 secs, Training time: 78.08376361057162 secs, Running time: 360.40769852744415 secs
+
+Epoch: 59/80 Training loss: 0.28516905546188354, Training acc: 0.9075
+Validation Loss: 1.6539689958095551, Validation Accuracy: 0.5884615384615385
+Data Loading Time: 246.71841609291732 secs, Training time: 118.33972212765366 secs, Running time: 366.1861743070185 secs
+
+Epoch: 60/80 Training loss: 0.2638650354743004, Training acc: 0.905
+Validation Loss: 1.3699025988578797, Validation Accuracy: 0.6115384615384616
+Data Loading Time: 183.82030956353992 secs, Training time: 175.498187571764 secs, Running time: 360.41269336873665 secs
+
+Epoch: 61/80 Training loss: 0.2710543018579483, Training acc: 0.91
+Validation Loss: 1.3885729700326919, Validation Accuracy: 0.6038461538461538
+Data Loading Time: 182.61839925218374 secs, Training time: 175.98635174846277 secs, Running time: 359.9384239707142 secs
+
+Epoch: 62/80 Training loss: 0.25652929484844206, Training acc: 0.9175
+Validation Loss: 1.2125194132328034, Validation Accuracy: 0.6230769230769231
+Data Loading Time: 217.63500188291073 secs, Training time: 140.7755859112367 secs, Running time: 359.6870802952908 secs
+
+Epoch: 63/80 Training loss: 0.2197902663052082, Training acc: 0.96
+Validation Loss: 1.444428515434265, Validation Accuracy: 0.6115384615384616
+Data Loading Time: 146.64066470973194 secs, Training time: 215.8911875784397 secs, Running time: 363.84019475989044 secs
+
+Epoch: 64/80 Training loss: 0.25880801856517793, Training acc: 0.915
+Validation Loss: 1.360549333691597, Validation Accuracy: 0.6192307692307693
+Data Loading Time: 293.27609900478274 secs, Training time: 66.36483970098197 secs, Running time: 361.18627208005637 secs
+
+Epoch: 65/80 Training loss: 0.26794694393873214, Training acc: 0.9
+Validation Loss: 1.4225089430809021, Validation Accuracy: 0.6230769230769231
+Data Loading Time: 294.276693189051 secs, Training time: 90.87576971109957 secs, Running time: 386.5345079470426 secs
+
+Epoch: 66/80 Training loss: 0.25910197347402575, Training acc: 0.91
+Validation Loss: 1.547118952870369, Validation Accuracy: 0.6230769230769231
+Data Loading Time: 289.0150848389603 secs, Training time: 66.56513170385733 secs, Running time: 356.90017826203257 secs
+
+Epoch: 67/80 Training loss: 0.29111363798379897, Training acc: 0.8925
+Validation Loss: 1.4626003324985504, Validation Accuracy: 0.6038461538461538
+Data Loading Time: 300.6161575806327 secs, Training time: 51.417140756268054 secs, Running time: 353.3392410990782 secs
+
+Epoch: 68/80 Training loss: 0.2704652974009514, Training acc: 0.895
+Validation Loss: 1.7559301912784577, Validation Accuracy: 0.5884615384615385
+Data Loading Time: 300.4796294621192 secs, Training time: 59.7011221665889 secs, Running time: 361.5041024410166 secs
+
+Epoch: 69/80 Training loss: 0.26044082909822464, Training acc: 0.9225
+Validation Loss: 1.384539920091629, Validation Accuracy: 0.6076923076923076
+Data Loading Time: 284.7241306267679 secs, Training time: 73.03760769497603 secs, Running time: 359.47186823701486 secs
+
+Epoch: 70/80 Training loss: 0.28402114629745484, Training acc: 0.8925
+Validation Loss: 1.3898825764656066, Validation Accuracy: 0.6192307692307693
+Data Loading Time: 300.0967136560939 secs, Training time: 52.920570261310786 secs, Running time: 354.3723134971224 secs
+
+Epoch: 71/80 Training loss: 0.22561152994632722, Training acc: 0.94
+Validation Loss: 1.4430158495903016, Validation Accuracy: 0.6269230769230769
+Data Loading Time: 290.7644357611425 secs, Training time: 66.78730499232188 secs, Running time: 358.86343163624406 secs
+
+Epoch: 72/80 Training loss: 0.27179530054330825, Training acc: 0.905
+Validation Loss: 1.3243767708539962, Validation Accuracy: 0.6153846153846154
+Data Loading Time: 278.6091545461677 secs, Training time: 78.58932526828721 secs, Running time: 358.4982902398333 secs
+
+Epoch: 73/80 Training loss: 0.2685538300871849, Training acc: 0.9175
+Validation Loss: 1.52988058924675, Validation Accuracy: 0.5923076923076923
+Data Loading Time: 249.19388523511589 secs, Training time: 106.51246280316263 secs, Running time: 356.9974056966603 secs
+
+Epoch: 74/80 Training loss: 0.20214542448520662, Training acc: 0.945
+Validation Loss: 1.662501186132431, Validation Accuracy: 0.5923076923076923
+Data Loading Time: 295.63918017363176 secs, Training time: 66.43308382946998 secs, Running time: 363.357604498975 secs
+
+Epoch: 75/80 Training loss: 0.278730021417141, Training acc: 0.9025
+Validation Loss: 1.5973740994930268, Validation Accuracy: 0.6076923076923076
+Data Loading Time: 263.76827111141756 secs, Training time: 95.70323851378635 secs, Running time: 360.73767321929336 secs
+
+Epoch: 76/80 Training loss: 0.23575962334871292, Training acc: 0.925
+Validation Loss: 1.4134265720844268, Validation Accuracy: 0.6153846153846154
+Data Loading Time: 269.92870423570275 secs, Training time: 84.23751872358844 secs, Running time: 355.44612297508866 secs
+
+Epoch: 77/80 Training loss: 0.2418994528055191, Training acc: 0.9275
+Validation Loss: 1.3016485214233398, Validation Accuracy: 0.6230769230769231
+Data Loading Time: 309.58934501418844 secs, Training time: 43.55729341087863 secs, Running time: 354.39344174973667 secs
+
+Epoch: 78/80 Training loss: 0.2551901289820671, Training acc: 0.9125
+Validation Loss: 1.4586701780557632, Validation Accuracy: 0.6076923076923076
+Data Loading Time: 308.8613487733528 secs, Training time: 46.58118549641222 secs, Running time: 356.74322651233524 secs
+
+Epoch: 79/80 Training loss: 0.24218014121055603, Training acc: 0.935
+Validation Loss: 1.3509845793247224, Validation Accuracy: 0.6115384615384616
+Data Loading Time: 181.39163986314088 secs, Training time: 178.48865215480328 secs, Running time: 361.0496673393063 secs
+
+Epoch: 80/80 Training loss: 0.26439819514751434, Training acc: 0.91
+Validation Loss: 1.310398143529892, Validation Accuracy: 0.5961538461538461
+Data Loading Time: 304.53824806725606 secs, Training time: 50.863674950785935 secs, Running time: 356.69230129616335 secs
+
