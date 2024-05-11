@@ -1,0 +1,2 @@
+Inference Time (cpu) per Image: 0.249235 secs
+Predicted Label: Animal

@@ -1,0 +1,2 @@
+Inference Time (cuda) per Image: 1.11081 secs
+Predicted Label: Animal

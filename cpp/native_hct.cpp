@@ -5,7 +5,7 @@
 #include<algorithm>
 #include<torch/script.h>
 #include<opencv2/opencv.hpp>
-#include <sys/time.h>
+#include<sys/time.h>
 
 using namespace std;
 using namespace cv;
@@ -106,7 +106,7 @@ private:
 int main(int argc, char* argv[]) {
     
     string modelPath = "/scratch/ar7996/HPML/project/saved_model/torchscript_hct.pth";
-    string inputPath = "/scratch/ar7996/HPML/project/dataset/train/Building/pexels-photo-1692693_1.png";
+    string inputPath = "/scratch/ar7996/HPML/project/dataset/train/Animal/pexels-photo-1300378_1.png";
     string device = "cuda";
     if(argc == 4) {
         modelPath = argv[1];
@@ -148,9 +148,11 @@ int main(int argc, char* argv[]) {
 
     stop = (((double) time.tv_sec) + ((double) time.tv_usec)/1000000);
 
-    ofstream outfile("/scratch/ar7996/HPML/project/cpp/CPP_logs.txt", ios::out);
+    string filePath = "/scratch/ar7996/HPML/project/cpp/CPP_logs_" + device + ".txt";
+
+    ofstream outfile(filePath, ios::out);
     if (outfile.is_open()) {
-        outfile << "Inference Time (GPU): " << stop - start << " secs" << endl;
+        outfile << "Inference Time (" << device << ") per Image: " << stop - start << " secs" << endl;
         outfile << "Predicted Label: " << pred << endl;
         outfile.close(); // Close file
     } else {
