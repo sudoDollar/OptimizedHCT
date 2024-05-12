@@ -1,6 +1,13 @@
 # OptimizedHCT
 ECE-GY 9143 - High Performance Machine Learning Project (NYU)
 
+![Static Badge](https://img.shields.io/badge/Language-Python-blue)
+![Static Badge](https://img.shields.io/badge/Framework-PyTorch-orange)
+![Static Badge](https://img.shields.io/badge/Platform-NYU_HPC-purple)
+![Static Badge](https://img.shields.io/badge/MLOps-Weights&Biases-gold)
+![Static Badge](https://img.shields.io/badge/TorchScript-orange)
+![Static Badge](https://img.shields.io/badge/C++-blue)
+
 ## Description
 The goal of this project is to optimize the [1]High-resolu1on Convolu1onal Transformer (HCT) model by
 leveraging High-Performance Computing (HPC) techniques, including distributed data parallelism and
