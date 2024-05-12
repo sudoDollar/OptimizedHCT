@@ -9,6 +9,9 @@ aims to enable faster and more effective processing of high-resolu1on images in 
 medical imaging and satellite image analysis, ultimately advancing the state-of-the-art in image-based
 tasks through optimized model architectures and computational methodologies.
 
+## Wandb Link
+[Weight & Biases](https://wandb.ai/ar7996/HCT)
+
 ## Project Milestones
 ### Milestone
 
@@ -124,6 +127,25 @@ cmake ..
 cmake --build .
 ./native_hct <model_path> <image_path> <device>
 ```
+
+## Results
+
+| Per Epoch | Single Device | Distributed (4 GPUs) | SpeedUp |
+| --- | --- | --- | --- |
+| Data Loading | 1000 secs | 271 secs | 3.7 |
+| Training | 160 secs | 90 secs | 1.78 |
+| Running | 1170 secs | 360 secs | 3.25 |
+
+#### Note:
+**Training => Data Movement from CPU to GPU + Forward pass + Backward Pass + Metrics Calculation** \
+**Running => Data Loading + Training** \
+**Model Evaluation is not included in time calculation**
+
+![Image](misc/W&B Chart 5_10_2024, 6_43_40 PM.png)
+![Image](misc/W&B Chart 5_10_2024, 6_44_18 PM.png)
+![Image](misc/W&B Chart 5_10_2024, 6_44_29 PM.png)
+![Image](misc/W&B Chart 5_10_2024, 6_44_38 PM.png)
+![Image](misc/W&B Chart 5_10_2024, 6_44_45 PM.png)
 
 
 
