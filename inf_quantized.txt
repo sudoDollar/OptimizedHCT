@@ -1,0 +1,45 @@
+Accuracy:
+Accuracy before Quantization = 0.5961538461538461; 155/260
+Accuracy after Quantization = 0.5576923076923077; 145/260
+
+Per Batch
+Eager Model Inference (CPU)
+['Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Street', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain']
+Inference Time per Batch: 3.9110627993941307 secs
+
+Size (MB): 7.042413
+Quantized Model Inference (CPU)
+['Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Street', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain']
+Inference Time per Batch: 1.2716613681986928 secs
+
+Size (MB): 1.972793
+Graph Model Inference (CPU)
+Model Successfully compiled/traced to ../saved_model/torchscript_hct_1.pth
+Further predictions will be made using traced module
+Inference Time per Batch: 3.8615837609395385 secs
+
+Graph + Quantized Model Inference (CPU)
+Model Successfully compiled/traced to ../saved_model/torchscript_quantized_hct.pth
+Further predictions will be made using traced module
+Inference Time per Batch: 1.4268719926476479 secs
+
+Per Image
+Eager Model Inference (CPU)
+Mountain
+Inference Time per Image: 0.14683712180703878 secs
+
+Size (MB): 7.042413
+Quantized Model Inference (CPU)
+Mountain
+Inference Time per Image: 0.07806775439530611 secs
+
+Size (MB): 1.972793
+Graph Model Inference (CPU)
+Model Successfully compiled/traced to ../saved_model/torchscript_hct_1.pth
+Further predictions will be made using traced module
+Inference Time per Image: 0.24011461343616247 secs
+
+Graph + Quantized Model Inference (CPU)
+Model Successfully compiled/traced to ../saved_model/torchscript_quantized_hct.pth
+Further predictions will be made using traced module
+Inference Time per Image: 0.15679329447448254 secs

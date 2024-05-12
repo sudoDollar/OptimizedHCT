@@ -30,8 +30,8 @@ def evaluate_batch(ie, data_loader):
     # return acc
     return corr / tot, corr, tot
 
-
 hct = HCTBase()
+output_fn = "ptq_hct_partial.pth"
 batch_size = 16
 
 val_dataset = LIU4K("../dataset/image_labels_valid.csv", False)
@@ -46,15 +46,15 @@ ie = InferenceEngine(hct, "../saved_model/hct.pt", "cpu")
 
 # quantize model
 # print("Quantizing model")
-# ie.quantize(val_loader)
+# ie.quantize(val_loader, output_fn=output_fn)
 
-ieq = InferenceEngine(hct, "../saved_model/ptq_hct.pth", "cpu", quantized=True)
+# load quantized model
+ieq = InferenceEngine(hct, f"../saved_model/{output_fn}", "cpu", quantized=True)
 val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=2, shuffle=False, num_workers=0)
 
-# # load quantized model
-# print("Evalulating quantized model")
-# acc_q, corr_q, tot_q = evaluate_batch(ieq, val_loader)
-# print(f"Accuracy after Quantization = {acc_q}; {corr_q}/{tot_q}")
+print("Evalulating quantized model")
+acc_q, corr_q, tot_q = evaluate_batch(ieq, val_loader)
+print(f"Accuracy after Quantization = {acc_q}; {corr_q}/{tot_q}")
 
 
 # check inference times
@@ -62,8 +62,6 @@ val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=batch_size, shu
 it = iter(val_loader)
 data = next(it)
 
-print("Per Batch")
-
 # Eager Model
 pred, time = ie.predict_batch(data[0])
 print("Eager Model Inference (CPU)")
@@ -77,50 +75,3 @@ print("Quantized Model Inference (CPU)")
 print(pred)
 print("Inference Time per Batch: {} secs\n".format(time))
 print_size_of_model(ieq.model)
-
-# Graph Model (Torchscript)
-print("Graph Model Inference (CPU)")
-ie.compile(output_fn="torchscript_hct_1.pth")
-pred, time = ie.predict_batch(data[0])
-print("Inference Time per Batch: {} secs\n".format(time))
-
-# Graph Model (Torchscript) + Quantized
-print("Graph + Quantized Model Inference (CPU)")
-ieq.compile("torchscript_quantized_hct.pth")
-pred, time = ieq.predict_batch(data[0])
-print("Inference Time per Batch: {} secs\n".format(time))
-
-
-print("Per Image")
-
-ie = InferenceEngine(hct, "../saved_model/hct.pt", "cpu")
-ieq = InferenceEngine(hct, "../saved_model/ptq_hct.pth", "cpu", quantized=True)
-val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=1, shuffle=False, num_workers=0)
-it = iter(val_loader)
-data = next(it)
-
-# Eager Model
-pred, time = ie.predict(data[0])
-print("Eager Model Inference (CPU)")
-print(pred)
-print("Inference Time per Image: {} secs\n".format(time))
-print_size_of_model(ie.model)
-
-# Quantized Model
-pred, time = ieq.predict(data[0])
-print("Quantized Model Inference (CPU)")
-print(pred)
-print("Inference Time per Image: {} secs\n".format(time))
-print_size_of_model(ieq.model)
-
-# Graph Model (Torchscript)
-print("Graph Model Inference (CPU)")
-ie.compile(output_fn="torchscript_hct_1.pth")
-pred, time = ie.predict(data[0])
-print("Inference Time per Image: {} secs\n".format(time))
-
-# Graph Model (Torchscript) + Quantized
-print("Graph + Quantized Model Inference (CPU)")
-ieq.compile("torchscript_quantized_hct.pth")
-pred, time = ieq.predict(data[0])
-print("Inference Time per Image: {} secs\n".format(time))
