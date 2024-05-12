@@ -141,10 +141,14 @@ cmake --build .
 **Running => Data Loading + Training** \
 **Model Evaluation is not included in time calculation**
 
+**Legends for below:**
+
+
+![Image](misc/legend.png "Legends")
 ![Image](misc/W%26B%20Chart%205_10_2024%2C%206_43_40%20PM.png?raw=True "Title") \
 ![Image](misc/W%26B%20Chart%205_10_2024%2C%206_44_18%20PM.png?raw?=True) \
 ![Image](misc/W%26B%20Chart%205_10_2024%2C%206_44_29%20PM.png) \
-![Image](misc/W%26B%20Chart%205_10_2024%2C%206_44_38%20PM.png) \
+![Image](misc/W%26B%20Chart%205_10_2024%2C%206_44_38%20PM.png)
 ![Image](misc/W%26B%20Chart%205_10_2024%2C%206_44_45%20PM.png) 
 
 
