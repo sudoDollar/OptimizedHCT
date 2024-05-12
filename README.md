@@ -9,10 +9,10 @@ ECE-GY 9143 - High Performance Machine Learning Project (NYU)
 ![Static Badge](https://img.shields.io/badge/C++-blue)
 
 ## Description
-The goal of this project is to optimize the [1]High-resolu1on Convolu1onal Transformer (HCT) model by
+The goal of this project is to optimize the [1]High-resolution Convolutional Transformer (HCT) model by
 leveraging High-Performance Computing (HPC) techniques, including distributed data parallelism and
-other advanced op1miza1on strategies. By enhancing the efficiency and scalability of HCT, the project
-aims to enable faster and more effective processing of high-resolu1on images in applica1ons such as
+other advanced optimization strategies. By enhancing the efficiency and scalability of HCT, the project
+aims to enable faster and more effective processing of high-resolution images in applications such as
 medical imaging and satellite image analysis, ultimately advancing the state-of-the-art in image-based
 tasks through optimized model architectures and computational methodologies.
 
