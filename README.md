@@ -141,7 +141,7 @@ cmake --build .
 **Running => Data Loading + Training** \
 **Model Evaluation is not included in time calculation**
 
-![Image]('misc/W&B Chart 5_10_2024, 6_43_40 PM.png' "Title") \
+![Image](W%26B%20Chart%205_10_2024%2C%206_43_40%20PM.png?raw=True "Title") \
 ![Image]("misc/W&B Chart 5_10_2024, 6_44_18 PM.png") \
 ![Image]("misc/W&B Chart 5_10_2024, 6_44_29 PM.png") \
 ![Image]("misc/W&B Chart 5_10_2024, 6_44_38 PM.png") \
