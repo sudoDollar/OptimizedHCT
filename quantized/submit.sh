@@ -11,8 +11,8 @@
 
 module purge
 module load anaconda3/2020.07
-# pip install dill
-# pip install einops
+pip install dill
+pip install einops
 
 cd /scratch/gk2657/project_final/OptimizedHCT/quantized
 

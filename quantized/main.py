@@ -40,21 +40,21 @@ print("Initialized dataset")
 
 ie = InferenceEngine(hct, "../saved_model/hct.pt", "cpu")
 
-# print("Evalulating unquantized model")
-# acc_norm, corr_norm, tot_norm = evaluate_batch(ie, val_loader)
-# print(f"Accuracy before Quantization = {acc_norm}; {corr_norm}/{tot_norm}")
+print("Evalulating unquantized model")
+acc_norm, corr_norm, tot_norm = evaluate_batch(ie, val_loader)
+print(f"Accuracy before Quantization = {acc_norm}; {corr_norm}/{tot_norm}")
 
 # quantize model
-# print("Quantizing model")
-# ie.quantize(val_loader)
+print("Quantizing model")
+ie.quantize(val_loader)
 
 ieq = InferenceEngine(hct, "../saved_model/ptq_hct.pth", "cpu", quantized=True)
 val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=2, shuffle=False, num_workers=0)
 
-# # load quantized model
-# print("Evalulating quantized model")
-# acc_q, corr_q, tot_q = evaluate_batch(ieq, val_loader)
-# print(f"Accuracy after Quantization = {acc_q}; {corr_q}/{tot_q}")
+# load quantized model
+print("Evalulating quantized model")
+acc_q, corr_q, tot_q = evaluate_batch(ieq, val_loader)
+print(f"Accuracy after Quantization = {acc_q}; {corr_q}/{tot_q}")
 
 
 # check inference times
