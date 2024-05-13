@@ -29,7 +29,7 @@ tasks through optimized model architectures and computational methodologies.
 | Integrate Weights & Biases and PyTorch Profiler | Completed |
 | Optimize training time by using PyTorch distributed data parallel | Completed |
 | Make it torchscript compatible to make it deployable on non-python environments | Completed |
-| Use additional quantization techniques to reduce inference time further | Stucked due to PyTorch Limitations |
+| Use additional quantization techniques to reduce inference time further | Completed |
 
 
 ## Repository Structure
@@ -58,6 +58,10 @@ tasks through optimized model architectures and computational methodologies.
 |── params.py (For command line arguments)
 |── submit.sh (To submit job on HPC)
 |── submit2.sh (To submit job on HPC)
+|── quantized
+|  ├── quantized/main.py (quantization)
+|── quantized_partial (attempt to partial quantization but resulted in worse time)
+|  ├── quantized/main.py (quantization)
 
 ```
 
@@ -135,6 +139,13 @@ cmake --build .
 ./native_hct <model_path> <image_path> <device>
 ```
 
+### Quantization
+
+```
+cd quantized
+sbatch submit.sh
+```
+
 ## Results
 
 | Per Epoch | Single Device | Distributed (4 GPUs) | SpeedUp |
@@ -157,8 +168,6 @@ cmake --build .
 ![Image](misc/W%26B%20Chart%205_10_2024%2C%206_44_29%20PM.png) \
 ![Image](misc/W%26B%20Chart%205_10_2024%2C%206_44_38%20PM.png)
 ![Image](misc/W%26B%20Chart%205_10_2024%2C%206_44_45%20PM.png) 
-
-
 
 ## References
 [1] Taha, A., Truong Vu, Y.N., MombourqueQe, B., MaQhews, T.P., Su, J. and Singh, S., 2022, September.
