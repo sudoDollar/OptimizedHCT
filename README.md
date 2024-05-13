@@ -59,9 +59,9 @@ tasks through optimized model architectures and computational methodologies.
 |── submit.sh (To submit job on HPC)
 |── submit2.sh (To submit job on HPC)
 |── quantized
-|  ├── quantized/main.py (quantization)
-|── quantized_partial (attempt to partial quantization but resulted in worse time)
-|  ├── quantized/main.py (quantization)
+|  ├── quantized/main.py (static quantization)
+|  ├── quantized_dynamic/main.py (dynamic quantization)
+|  |── quantized_partial (attempt to partial quantization static but resulted in worse time)
 
 ```
 
@@ -141,8 +141,15 @@ cmake --build .
 
 ### Quantization
 
+Static Quantization:
 ```
 cd quantized
+sbatch submit.sh
+```
+
+Dynamic Quantization:
+```
+cd quantized_dynamic
 sbatch submit.sh
 ```
 
