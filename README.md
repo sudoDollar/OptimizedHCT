@@ -60,8 +60,10 @@ tasks through optimized model architectures and computational methodologies.
 |── submit2.sh (To submit job on HPC)
 |── quantized
 |  ├── quantized/main.py (static quantization)
+|── quantized_dynamic
 |  ├── quantized_dynamic/main.py (dynamic quantization)
-|  |── quantized_partial (attempt to partial quantization static but resulted in worse time)
+|── quantized_partial
+|  |── quantized_partial/main.py (attempt to partial static quantization but resulted in worse time)
 
 ```
 
