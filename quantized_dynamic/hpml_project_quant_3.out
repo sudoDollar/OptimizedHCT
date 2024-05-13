@@ -1,0 +1,47 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: dill in /scratch/gk2657/.local/lib/python3.8/site-packages (0.3.8)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: einops in /scratch/gk2657/.local/lib/python3.8/site-packages (0.8.0)
+Quantizing model (dynamic)
+Per Batch
+Eager Model Inference (CPU)
+['Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Street', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain']
+Inference Time per Batch: 3.9195661628618836 secs
+
+Size (MB): 7.040301
+Quantized (dynamic) Model Inference (CPU)
+['Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Street', 'Mountain', 'Animal', 'Mountain', 'Mountain', 'Mountain', 'Mountain', 'Mountain']
+Inference Time per Batch: 3.8493937896564603 secs
+
+Size (MB): 5.822403
+Graph Model Inference (CPU)
+Model Successfully compiled/traced to ../saved_model/torchscript_hct_1.pth
+Further predictions will be made using traced module
+Inference Time per Batch: 3.8449613731354475 secs
+
+Graph + Quantized (dynamic) Model Inference (CPU)
+Model Successfully compiled/traced to ../saved_model/torchscript_quantized_dynamic_hct.pth
+Further predictions will be made using traced module
+Inference Time per Batch: 3.934763661585748 secs
+
+Per Image
+Eager Model Inference (CPU)
+Mountain
+Inference Time per Image: 0.1637153523042798 secs
+
+Size (MB): 7.040301
+Quantized Model Inference (CPU)
+Mountain
+Inference Time per Image: 0.1689505334943533 secs
+
+Size (MB): 5.822403
+Graph Model Inference (CPU)
+Model Successfully compiled/traced to ../saved_model/torchscript_hct_1.pth
+Further predictions will be made using traced module
+Inference Time per Image: 0.25308649707585573 secs
+
+Graph + Quantized Model Inference (CPU)
+Model Successfully compiled/traced to ../saved_model/torchscript_quantized_hct.pth
+Further predictions will be made using traced module
+Inference Time per Image: 0.2580686416476965 secs
+
